@@ -124,7 +124,7 @@ export default function App() {
           transition: 'none' 
         }}
       >
-        <h1>Project Detail</h1>
+        <h1 style={{ color: 'black' }}>Project Detail</h1>
         <p style={{ fontSize: '1.5rem', color: '#666' }}>Full case study goes here</p>
         <button 
           onClick={() => gsap.to('.hero-section', { y: '100%', duration: 1, ease: 'power4.in' })}
